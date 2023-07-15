@@ -4,6 +4,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+
 header {
     /* background-image: linear-gradient(45deg, #FFB6C1, #ffb6c18b); */
     width: auto;
@@ -162,8 +163,21 @@ main{
   height: 100%;
 }
 
+.b1{
+     margin-left: 100px;
+}
+
+
+
 
 @media screen  and (max-width : 576px){
+    /* *{
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    } */
+    *{
+        overflow-x: hidden;
+    }
     header {
         /* background-image: linear-gradient(45deg, #FFB6C1, #ffb6c18b); */
         width: 100%;
@@ -177,6 +191,17 @@ main{
    }
    .head_3rd_section{
     height: 70vh;
+   }
+
+   .list{
+    height: auto;
+    flex-direction: column;
+   }
+   .btn_main{
+    /* margin-right: 100px; */
+   }
+   .b1{
+    margin-left: 20px;
    }
 
 }
