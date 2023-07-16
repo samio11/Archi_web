@@ -330,7 +330,14 @@ margin-bottom: 20px;
 
     .list {
         height: auto;
+        width: 100%;
         flex-direction: column;
+    }
+    .list_image{
+        width: 100%;
+    }
+    .list_para{
+        width: 100%;
     }
 
     .btn_main {
